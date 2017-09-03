@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/warning"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/title"
+            android:src="@drawable/danger2" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/warning"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Do you really want to exit the app?"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
