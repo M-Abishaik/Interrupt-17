@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\xampp\Interrupt\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8c40e45db1a3c8e9b4465764c43f7ed9884187b7">
+        <dex dex="C:\xampp\Interrupt\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9282729ded03e874f44d53f254fc491d7ba008e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Abishaik\.android\build-cache\fae3b9a11d1a7ea6d0c91a4ef07fda9710ec9272\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\xampp\Interrupt\app\build\intermediates\pre-dexed\debug\classes_55008e4d24ae9708bba789c1864bda00cf5a09c4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\xampp\Interrupt\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\xampp\Interrupt\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b122dc98e06614b2307e9efdbe6c4d3b161eae8d\classes.dex" />
+    </item>
+
+</items>
