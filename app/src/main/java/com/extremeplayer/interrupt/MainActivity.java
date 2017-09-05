@@ -217,6 +217,7 @@ public class MainActivity extends AppCompatActivity {
                             fragobj3.setArguments(bundle);
                             return fragobj3;
                         }
+                        return new Profile();
                     }catch (Exception e){
                         e.printStackTrace();
                     }
